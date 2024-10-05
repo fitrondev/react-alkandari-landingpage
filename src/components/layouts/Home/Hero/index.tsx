@@ -3,8 +3,8 @@ import { Phone } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="">
-      <div className="container h-[calc(100vh-80px)] flex items-center justify-center">
+    <section>
+      <div className="container h-screen flex items-center justify-center">
         <div className="lg:w-[787px] flex flex-col items-center justify-center text-center gap-y-4 sm:gap-y-8">
           <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold">
             Temukan kedamaian melalui dekat dengan Tuhan
