@@ -1,10 +1,10 @@
-import { Button } from "./components/ui/button";
+import HomeLayout from "./components/layouts/Home";
 
 const App = () => {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <HomeLayout />
+    </>
   );
 };
 export default App;
