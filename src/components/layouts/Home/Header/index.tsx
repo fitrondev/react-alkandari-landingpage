@@ -29,7 +29,7 @@ const Header = () => {
         </div>
 
         <div className="hidden lg:block">
-          <Nav directionCls="flex items-center gap-8" />
+          <Nav directionCls="flex items-center gap-8" linkCls="font-semibold" />
         </div>
 
         <MobileMenu />
