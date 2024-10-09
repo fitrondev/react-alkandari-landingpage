@@ -7,7 +7,7 @@ const Title = ({ title, desc }: TitleProps) => {
   return (
     <div className="flex flex-col items-center justify-center text-center">
       <h1 className="text-lg uppercase font-bold">{title}</h1>
-      <p className="sm:max-w-[600px] text-3xl sm:text-5xl font-extrabold">
+      <p className="sm:max-w-[500px] text-3xl sm:text-4xl font-extrabold">
         {desc}
       </p>
     </div>
