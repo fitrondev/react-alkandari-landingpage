@@ -23,7 +23,12 @@ const ActivityCard = ({ item }: ActivityCardProps) => {
         <p className="line-clamp-3">{item.desc}</p>
       </CardContent>
       <CardFooter>
-        <img src={item.img} alt="" className="rounded-md cursor-pointer" />
+        <img
+          src={item.img}
+          alt=""
+          className="rounded-md cursor-pointer"
+          loading="lazy"
+        />
       </CardFooter>
     </Card>
   );
