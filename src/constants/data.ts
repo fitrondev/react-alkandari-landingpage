@@ -59,3 +59,27 @@ export const activityData: ActivityType[] = [
     img: activityImg,
   },
 ];
+
+import { FaFacebookF } from "react-icons/fa6";
+import { GrInstagram } from "react-icons/gr";
+import { FaTiktok } from "react-icons/fa6";
+
+export type SocialType = {
+  Icons: IconType;
+  link: string;
+};
+
+export const socialData: SocialType[] = [
+  {
+    Icons: FaFacebookF,
+    link: "https://www.facebook.com",
+  },
+  {
+    Icons: GrInstagram,
+    link: "https://www.instagram.com",
+  },
+  {
+    Icons: FaTiktok,
+    link: "https://www.tiktok.com",
+  },
+];
