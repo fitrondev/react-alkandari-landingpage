@@ -1,6 +1,7 @@
 import Activity from "./components/layouts/Activity";
 import Feature from "./components/layouts/Feature";
 import HomeLayout from "./components/layouts/Home";
+import Photos from "./components/layouts/Photos";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <HomeLayout />
       <Feature />
       <Activity />
+      <Photos />
     </>
   );
 };
