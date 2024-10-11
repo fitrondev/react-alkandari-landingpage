@@ -1,5 +1,5 @@
 import Title from "@/components/Title";
-import MosqueMaps from "./MosqueMaps";
+// import MosqueMaps from "./MosqueMaps";
 
 const Maps = () => {
   return (
@@ -7,7 +7,14 @@ const Maps = () => {
       <div className="container space-y-12">
         <Title title="Lokasi" desc="Lokasi Masjid Mudah Diakses" />
 
-        <MosqueMaps />
+        {/* 
+        for now, use a placeholder div to represent the map
+        */}
+        <div className="w-full h-[450px] bg-primary text-white">
+          Untuk Kelancaran
+        </div>
+
+        {/* <MosqueMaps /> */}
       </div>
     </section>
   );
